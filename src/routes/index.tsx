@@ -202,7 +202,7 @@ function Portfolio() {
           <Timeline items={[
             { year: "2025 – 2029", title: "B.E. — CSE (AI & ML)", place: "SKSVMACET, Laxmeshwar", detail: "CGPA\u00a0 8.05\u00a0· Ongoing" },
             { year: "PUC", title: "Pre-University · Science", place: "Vidya Chetan PU College", detail: "Completed · 84.6%" },
-            { year: "Class X", title: "Secondary School (CBSE)", place: "Kendriya Vidyalaya, Hati", detail: "Completed · 75%" },
+            { year: "Class X", title: "Secondary School (CBSE)", place: "Kendriya Vidyalaya, Hatti gold mines", detail: "Completed · 75%" },
           ]} />
         </div>
       </Section>
@@ -229,7 +229,7 @@ function Portfolio() {
             year="Class X · CBSE"
             title="Secondary School Certificate"
             spec="Central Board of Secondary Education"
-            place="Kendriya Vidyalaya, Hati"
+            place="Kendriya Vidyalaya, Hatti gold mines"
             score="75%"
           />
         </div>
