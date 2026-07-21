@@ -200,7 +200,7 @@ function Portfolio() {
         <div className="mt-14">
           <h3 className="font-display text-2xl font-semibold mb-8 reveal">Academic Journey</h3>
           <Timeline items={[
-            { year: "2025 – 2029", title: "B.E. — CSE (AI & ML)", place: "SKSVMACET, Laxmeshwar", detail: "CGPA 8.05 · Ongoing" },
+            { year: "2025 – 2029", title: "B.E. — CSE (AI & ML)", place: "SKSVMACET, Laxmeshwar", detail: "CGPA\u00a0 8.05\u00a0· Ongoing" },
             { year: "PUC", title: "Pre-University · Science", place: "Vidya Chetan PU College", detail: "Completed · 84.6%" },
             { year: "Class X", title: "Secondary School (CBSE)", place: "Kendriya Vidyalaya, Hati", detail: "Completed · 75%" },
           ]} />
