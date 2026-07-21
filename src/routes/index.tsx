@@ -221,7 +221,7 @@ function Portfolio() {
           <EduCard
             year="PUC — Science"
             title="Pre-University Certificate"
-            spec="Physics · Chemistry · Maths · CS"
+            spec={"Physics · Chemistry · Maths · biology\n\n"}
             place="Vidya Chetan PU College"
             score="84.6%"
           />
