@@ -201,7 +201,7 @@ function Portfolio() {
           <h3 className="font-display text-2xl font-semibold mb-8 reveal">Academic Journey</h3>
           <Timeline items={[
             { year: "2025 – 2029", title: "B.E. — CSE (AI & ML)", place: "SKSVMACET, Laxmeshwar", detail: "CGPA\u00a0 8.05\u00a0· Ongoing" },
-            { year: "PUC", title: "Pre-University · Science", place: "Vidya Chetan PU College", detail: "Completed · 84.6%" },
+            { year: "PUC", title: "Pre-University · Science", place: "Vidya Chetan PU College, Lingsugur", detail: "Completed · 84.6%" },
             { year: "Class X", title: "Secondary School (CBSE)", place: "Kendriya Vidyalaya, Hatti gold mines", detail: "Completed · 75%" },
           ]} />
         </div>
@@ -222,7 +222,7 @@ function Portfolio() {
             year="PUC — Science"
             title="Pre-University Certificate"
             spec={"Physics · Chemistry · Maths · biology\n\n"}
-            place="Vidya Chetan PU College"
+            place="Vidya Chetan PU College, Lingsugur"
             score="84.6%"
           />
           <EduCard
