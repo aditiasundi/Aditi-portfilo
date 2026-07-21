@@ -132,7 +132,7 @@ function Portfolio() {
               <span className="inline-block ml-2">🌸</span>
             </h1>
             <p className="mt-4 text-lg text-foreground/70 max-w-lg">
-              CSE (AI &amp; ML) Student · Aspiring AI/ML &amp; Data Professional. I build thoughtful,
+              CSE (AI &amp; ML) Student · Aspiring AI/ML&nbsp; Professional. I build thoughtful,
               user-focused technology with a soft spot for creativity, aesthetics, and clean code.
             </p>
 
