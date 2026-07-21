@@ -551,13 +551,14 @@ function ProjectCard({
         ))}
       </div>
       <div className="mt-5 flex gap-2">
-        <a href="#" className="flex-1 inline-flex items-center justify-center gap-1.5 rounded-full glass-strong px-4 py-2 text-xs font-semibold hover:scale-[1.02] transition">
+        <a href="https://github.com/aditiasundi" target="_blank" rel="noopener noreferrer" className="flex-1 inline-flex items-center justify-center gap-1.5 rounded-full glass-strong px-4 py-2 text-xs font-semibold hover:scale-[1.02] transition">
           <Github className="h-3.5 w-3.5" /> GitHub
         </a>
-        <a href="#" className="flex-1 inline-flex items-center justify-center gap-1.5 rounded-full btn-primary-pink px-4 py-2 text-xs font-semibold">
+        <a href="https://github.com/aditiasundi" target="_blank" rel="noopener noreferrer" className="flex-1 inline-flex items-center justify-center gap-1.5 rounded-full btn-primary-pink px-4 py-2 text-xs font-semibold">
           Live Demo <ExternalLink className="h-3.5 w-3.5" />
         </a>
       </div>
+
     </div>
   );
 }
