@@ -182,7 +182,7 @@ function Portfolio() {
             <p className="text-foreground/80 leading-relaxed">
               I'm a passionate <b>B.E. Computer Science &amp; Engineering (AI &amp; ML)</b> student at SKSVMACET, Laxmeshwar.
               I love where creativity meets computation — spending my time exploring <b>Artificial Intelligence,
-              Machine Learning, Data Analysis, and Generative AI</b>. I combine strong technical skill with
+              Machine Learning, and Generative AI</b>. I combine strong technical skill with
               design sensibility and clear communication to build products that feel as good as they work.
             </p>
             <p className="mt-4 text-foreground/70 leading-relaxed">
