@@ -13,9 +13,9 @@ export const Route = createFileRoute("/")({
 });
 
 const TYPING_PHRASES = [
-  "AI/ML Enthusiast ✨",
-  "Creative Problem Solver 🌸",
-  "Future Tech Professional 💻",
+  "AI/ML Enthusiast",
+  "Creative Problem Solver",
+  "Future Tech Professional",
 ];
 
 function useTyping() {
@@ -91,7 +91,7 @@ function Portfolio() {
       <header className="fixed top-4 left-1/2 z-50 w-[min(1100px,94%)] -translate-x-1/2 glass-strong rounded-full px-5 py-3 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-2 font-display text-lg font-semibold">
           <span className="text-gradient">Aditi</span>
-          <Heart className="h-4 w-4 fill-primary text-primary" />
+          <Star className="h-4 w-4 fill-primary text-primary" />
         </a>
         <nav className="hidden lg:flex items-center gap-1">
           {NAV.map((n) => (
@@ -125,15 +125,15 @@ function Portfolio() {
         <div className="mx-auto max-w-6xl grid md:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-up">
             <div className="inline-flex items-center gap-2 glass-card rounded-full px-4 py-1.5 text-xs font-medium text-primary mb-6">
-              <Sparkles className="h-3.5 w-3.5" /> Pink AI Girl in Tech
+              <Sparkles className="h-3.5 w-3.5" /> AI/ML Student &amp; Builder
             </div>
             <h1 className="font-display text-5xl sm:text-6xl md:text-7xl font-semibold leading-[1.05]">
               Hi, I'm <span className="text-gradient italic">Aditi</span>
-              <span className="inline-block ml-2">🌸</span>
+              <span className="inline-block ml-2 text-primary">✦</span>
             </h1>
             <p className="mt-4 text-lg text-foreground/70 max-w-lg">
-              CSE (AI &amp; ML) Student · Aspiring AI/ML&nbsp; Professional. I build thoughtful,
-              user-focused technology with a soft spot for creativity, aesthetics, and clean code.
+              CSE (AI &amp; ML) Student · Aspiring AI/ML Professional. I build thoughtful,
+              user-focused technology with a passion for creativity, aesthetics, and clean code.
             </p>
 
             <div className="mt-6 h-8 flex items-center gap-1 text-primary font-medium">
@@ -176,17 +176,17 @@ function Portfolio() {
       </section>
 
       {/* ABOUT */}
-      <Section id="about" eyebrow="About Me" title="A little about my story" icon={<Heart className="h-4 w-4" />}>
+      <Section id="about" eyebrow="About Me" title="My story" icon={<Heart className="h-4 w-4" />}>
         <div className="grid md:grid-cols-5 gap-8 items-start">
           <div className="md:col-span-3 glass-card rounded-3xl p-8 reveal">
             <p className="text-foreground/80 leading-relaxed">
               I'm a passionate <b>B.E. Computer Science &amp; Engineering (AI &amp; ML)</b> student at SKSVMACET, Laxmeshwar.
               I love where creativity meets computation — spending my time exploring <b>Artificial Intelligence,
-              Machine Learning, and Generative AI</b>. I combine strong technical skill with
+              Machine Learning, and Generative AI</b>. I combine strong technical skills with
               design sensibility and clear communication to build products that feel as good as they work.
             </p>
             <p className="mt-4 text-foreground/70 leading-relaxed">
-              When I'm not coding, you'll find me dancing, reading, or sketching new ideas for my next project. 🌷
+              When I'm not coding, you'll find me dancing, reading, or sketching new ideas for my next project.
             </p>
           </div>
           <div className="md:col-span-2 space-y-4 reveal">
@@ -208,7 +208,7 @@ function Portfolio() {
       </Section>
 
       {/* EDUCATION */}
-      <Section id="education" eyebrow="Education" title="Where I've studied" icon={<GraduationCap className="h-4 w-4" />}>
+      <Section id="education" eyebrow="Education" title="Academic background" icon={<GraduationCap className="h-4 w-4" />}>
         <div className="grid md:grid-cols-3 gap-6">
           <EduCard
             year="2025 – 2029"
@@ -236,7 +236,7 @@ function Portfolio() {
       </Section>
 
       {/* SKILLS */}
-      <Section id="skills" eyebrow="Skills" title="My little toolkit" icon={<Brain className="h-4 w-4" />}>
+      <Section id="skills" eyebrow="Skills" title="Technical toolkit" icon={<Brain className="h-4 w-4" />}>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <SkillGroup
             icon={<Code2 className="h-5 w-5" />}
@@ -272,35 +272,35 @@ function Portfolio() {
       </Section>
 
       {/* PROJECTS */}
-      <Section id="projects" eyebrow="Projects" title="Things I've built with love" icon={<Sparkles className="h-4 w-4" />}>
+      <Section id="projects" eyebrow="Projects" title="Selected work" icon={<Sparkles className="h-4 w-4" />}>
         <div className="grid md:grid-cols-2 gap-6">
           <ProjectCard
-            emoji="🌸"
+            emoji="✦"
             image={projectSkin}
             title="AI-Powered Skin Analysis Platform"
             desc="Skincare platform that analyses skin conditions from images and recommends personalised routines."
             tech={["Python", "ML", "Flask", "OpenCV"]}
           />
           <ProjectCard
-            emoji="🚨"
+            emoji="✦"
             title="AI Emergency App"
             desc="Smart emergency-response app connecting users to help quickly via AI-driven decision support."
             tech={["Python", "AI", "FastAPI"]}
           />
           <ProjectCard
-            emoji="🎮"
+            emoji="✦"
             title="Memory Pulse Game"
             desc="Fast-paced memory matching game with increasing difficulty and a clean, minimal UI."
             tech={["HTML", "CSS", "JavaScript"]}
           />
           <ProjectCard
-            emoji="⚔️"
+            emoji="✦"
             title="Anime Word Duel"
             desc="Anime-themed word battle game combining vocabulary, speed, and strategy."
             tech={["JavaScript", "HTML/CSS"]}
           />
           <ProjectCard
-            emoji="☀️"
+            emoji="✦"
             title="Solar Energy Calculator"
             desc="Calculator estimating solar panel output and savings from usage & location data."
             tech={["Python", "Data Analysis"]}
@@ -309,7 +309,7 @@ function Portfolio() {
       </Section>
 
       {/* ACHIEVEMENTS */}
-      <Section id="achievements" eyebrow="Certifications & Achievements" title="Little wins along the way" icon={<Trophy className="h-4 w-4" />}>
+      <Section id="achievements" eyebrow="Certifications & Achievements" title="Milestones" icon={<Trophy className="h-4 w-4" />}>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
           <Badge icon={<Award />} title="Deloitte AI & Cybersecurity" sub="Job Simulation Certification" />
           <Badge icon={<Award />} title="SkillUp Certification" sub="Verified Program" />
@@ -319,7 +319,7 @@ function Portfolio() {
       </Section>
 
       {/* EXPERIENCE */}
-      <Section id="experience" eyebrow="Experience & Activities" title="Where I keep showing up" icon={<Rocket className="h-4 w-4" />}>
+      <Section id="experience" eyebrow="Experience & Activities" title="Where I've contributed" icon={<Rocket className="h-4 w-4" />}>
         <Timeline items={[
           { year: "2026", title: "Hackathons & Innovation Challenges", place: "Departmental & Inter-college", detail: "Actively participates in tech fests and innovation challenges." },
           { year: "2025", title: "AI/ML Team Hackathon", place: "Collaborative Project", detail: "Collaborated in a team-based hackathon applying AI/ML concepts to real problems." },
@@ -329,13 +329,13 @@ function Portfolio() {
       </Section>
 
       {/* RESUME */}
-      <Section id="resume" eyebrow="Resume" title="Grab a copy of my story" icon={<Download className="h-4 w-4" />}>
+      <Section id="resume" eyebrow="Resume" title="Download my resume" icon={<Download className="h-4 w-4" />}>
         <div className="glass-strong rounded-3xl p-8 md:p-12 grid md:grid-cols-2 gap-8 items-center reveal">
           <div>
             <div className="inline-flex items-center gap-2 rounded-full glass-card px-3 py-1 text-xs text-primary mb-4">
               <Sparkles className="h-3 w-3" /> Updated · 2026
             </div>
-            <h3 className="font-display text-3xl font-semibold">One page, all of me 💗</h3>
+            <h3 className="font-display text-3xl font-semibold">One page, all of me</h3>
             <p className="mt-3 text-foreground/70">
               Education, projects, skills, and achievements — neatly designed. Download below or preview on the right.
             </p>
@@ -344,7 +344,7 @@ function Portfolio() {
               download
               className="btn-primary-pink mt-6 inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold"
             >
-              Download My Resume 📄
+              Download My Resume <Download className="h-4 w-4" />
             </a>
           </div>
           <div className="relative">
@@ -377,11 +377,11 @@ function Portfolio() {
       </Section>
 
       {/* CONTACT */}
-      <Section id="contact" eyebrow="Contact" title="Let's build something amazing together ✨" icon={<Mail className="h-4 w-4" />}>
+      <Section id="contact" eyebrow="Contact" title="Let's build something amazing together" icon={<Mail className="h-4 w-4" />}>
         <div className="grid md:grid-cols-2 gap-6">
           <div className="glass-card rounded-3xl p-8 reveal space-y-4">
             <p className="text-foreground/70">
-              Whether it's a collab, hackathon team, or just to say hi — my inbox is always open. 🌷
+              Whether it's a collaboration, hackathon team, or just to say hi — my inbox is always open.
             </p>
             <ContactItem icon={<Mail />} label="Email" value="aditiasundi@gmail.com" href="mailto:aditiasundi@gmail.com" />
             <ContactItem icon={<Linkedin />} label="LinkedIn" value="aditi-c-asundi" href="https://linkedin.com/in/aditi-c-asundi-b1034037a" />
@@ -392,18 +392,18 @@ function Portfolio() {
           <form ref={formRef} onSubmit={onSubmit} className="glass-strong rounded-3xl p-8 reveal space-y-4">
             <div>
               <label className="text-xs font-medium text-foreground/70">Your name</label>
-              <input required className="mt-1 w-full rounded-xl bg-white/60 border border-border px-4 py-3 text-sm outline-none focus:border-primary focus:ring-2 focus:ring-primary/30 transition" placeholder="Aditi's future collaborator ✨" />
+              <input required className="mt-1 w-full rounded-xl bg-white/60 border border-border px-4 py-3 text-sm outline-none focus:border-primary focus:ring-2 focus:ring-primary/30 transition" placeholder="Your name" />
             </div>
             <div>
               <label className="text-xs font-medium text-foreground/70">Email</label>
-              <input required type="email" className="mt-1 w-full rounded-xl bg-white/60 border border-border px-4 py-3 text-sm outline-none focus:border-primary focus:ring-2 focus:ring-primary/30 transition" placeholder="you@lovely.com" />
+              <input required type="email" className="mt-1 w-full rounded-xl bg-white/60 border border-border px-4 py-3 text-sm outline-none focus:border-primary focus:ring-2 focus:ring-primary/30 transition" placeholder="you@example.com" />
             </div>
             <div>
               <label className="text-xs font-medium text-foreground/70">Message</label>
-              <textarea required rows={4} className="mt-1 w-full rounded-xl bg-white/60 border border-border px-4 py-3 text-sm outline-none focus:border-primary focus:ring-2 focus:ring-primary/30 transition resize-none" placeholder="Tell me about your idea 🌸" />
+              <textarea required rows={4} className="mt-1 w-full rounded-xl bg-white/60 border border-border px-4 py-3 text-sm outline-none focus:border-primary focus:ring-2 focus:ring-primary/30 transition resize-none" placeholder="Tell me about your idea" />
             </div>
             <button type="submit" className="btn-primary-pink w-full inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold">
-              {sent ? "Sent with love 💗" : (<>Send Message <Send className="h-4 w-4" /></>)}
+              {sent ? "Sent successfully" : (<>Send Message <Send className="h-4 w-4" /></>)}
             </button>
           </form>
         </div>
@@ -416,14 +416,14 @@ function Portfolio() {
           <Star className="absolute top-6 right-8 h-3 w-3 text-primary/70 fill-primary/40 animate-twinkle" style={{ animationDelay: "0.6s" }} />
           <Flower2 className="absolute bottom-4 left-10 h-4 w-4 text-primary/50 animate-twinkle" style={{ animationDelay: "1s" }} />
           <p className="font-display text-lg">
-            Designed & Built with <span className="text-primary">💗</span> by Aditi
+            Designed & Built by Aditi
           </p>
           <div className="mt-4 flex justify-center gap-4 text-foreground/60">
             <a href="https://github.com/aditiasundi" className="hover:text-primary transition" aria-label="GitHub"><Github className="h-5 w-5" /></a>
             <a href="https://linkedin.com/in/aditi-c-asundi-b1034037a" className="hover:text-primary transition" aria-label="LinkedIn"><Linkedin className="h-5 w-5" /></a>
             <a href="mailto:aditiasundi@gmail.com" className="hover:text-primary transition" aria-label="Email"><Mail className="h-5 w-5" /></a>
           </div>
-          <p className="mt-4 text-xs text-foreground/50">© {new Date().getFullYear()} Aditi C. Asundi · All little sparkles reserved.</p>
+          <p className="mt-4 text-xs text-foreground/50">© {new Date().getFullYear()} Aditi C. Asundi · All rights reserved.</p>
         </div>
       </footer>
     </div>
