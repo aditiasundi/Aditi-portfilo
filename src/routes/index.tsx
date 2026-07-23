@@ -517,7 +517,7 @@ function SkillGroup({
   icon, title, skills,
 }: { icon: React.ReactNode; title: string; skills: [string, number][] }) {
   return (
-    <div className="glass-card rounded-3xl p-6 reveal hover:-translate-y-1 transition">
+    <div className="glass-card tilt-card rounded-3xl p-6 reveal">
       <div className="flex items-center gap-2 text-primary">
         <span className="grid place-items-center h-9 w-9 rounded-xl bg-[var(--gradient-soft)]">{icon}</span>
         <h3 className="font-display text-lg font-semibold text-foreground">{title}</h3>
@@ -544,7 +544,7 @@ function ProjectCard({
   emoji, title, desc, tech, image,
 }: { emoji: string; title: string; desc: string; tech: string[]; image?: string }) {
   return (
-    <div className="group glass-card rounded-3xl p-6 reveal hover:-translate-y-1 hover:shadow-[var(--shadow-soft)] transition">
+    <div className="group glass-card tilt-card rounded-3xl p-6 reveal">
       {image && (
         <div className="mb-5 overflow-hidden rounded-2xl">
           <img src={image} alt={title} loading="lazy" width={1024} height={768}
