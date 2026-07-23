@@ -176,17 +176,17 @@ function Portfolio() {
       </section>
 
       {/* ABOUT */}
-      <Section id="about" eyebrow="About Me" title="A little about my story" icon={<Heart className="h-4 w-4" />}>
+      <Section id="about" eyebrow="About Me" title="My story" icon={<Heart className="h-4 w-4" />}>
         <div className="grid md:grid-cols-5 gap-8 items-start">
           <div className="md:col-span-3 glass-card rounded-3xl p-8 reveal">
             <p className="text-foreground/80 leading-relaxed">
               I'm a passionate <b>B.E. Computer Science &amp; Engineering (AI &amp; ML)</b> student at SKSVMACET, Laxmeshwar.
               I love where creativity meets computation — spending my time exploring <b>Artificial Intelligence,
-              Machine Learning, and Generative AI</b>. I combine strong technical skill with
+              Machine Learning, and Generative AI</b>. I combine strong technical skills with
               design sensibility and clear communication to build products that feel as good as they work.
             </p>
             <p className="mt-4 text-foreground/70 leading-relaxed">
-              When I'm not coding, you'll find me dancing, reading, or sketching new ideas for my next project. 🌷
+              When I'm not coding, you'll find me dancing, reading, or sketching new ideas for my next project.
             </p>
           </div>
           <div className="md:col-span-2 space-y-4 reveal">
