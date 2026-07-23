@@ -13,9 +13,9 @@ export const Route = createFileRoute("/")({
 });
 
 const TYPING_PHRASES = [
-  "AI/ML Enthusiast ✨",
-  "Creative Problem Solver 🌸",
-  "Future Tech Professional 💻",
+  "AI/ML Enthusiast",
+  "Creative Problem Solver",
+  "Future Tech Professional",
 ];
 
 function useTyping() {
