@@ -91,7 +91,7 @@ function Portfolio() {
       <header className="fixed top-4 left-1/2 z-50 w-[min(1100px,94%)] -translate-x-1/2 glass-strong rounded-full px-5 py-3 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-2 font-display text-lg font-semibold">
           <span className="text-gradient">Aditi</span>
-          <Heart className="h-4 w-4 fill-primary text-primary" />
+          <Star className="h-4 w-4 fill-primary text-primary" />
         </a>
         <nav className="hidden lg:flex items-center gap-1">
           {NAV.map((n) => (
@@ -125,15 +125,15 @@ function Portfolio() {
         <div className="mx-auto max-w-6xl grid md:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-up">
             <div className="inline-flex items-center gap-2 glass-card rounded-full px-4 py-1.5 text-xs font-medium text-primary mb-6">
-              <Sparkles className="h-3.5 w-3.5" /> Pink AI Girl in Tech
+              <Sparkles className="h-3.5 w-3.5" /> AI/ML Student &amp; Builder
             </div>
             <h1 className="font-display text-5xl sm:text-6xl md:text-7xl font-semibold leading-[1.05]">
               Hi, I'm <span className="text-gradient italic">Aditi</span>
-              <span className="inline-block ml-2">🌸</span>
+              <span className="inline-block ml-2 text-primary">✦</span>
             </h1>
             <p className="mt-4 text-lg text-foreground/70 max-w-lg">
-              CSE (AI &amp; ML) Student · Aspiring AI/ML&nbsp; Professional. I build thoughtful,
-              user-focused technology with a soft spot for creativity, aesthetics, and clean code.
+              CSE (AI &amp; ML) Student · Aspiring AI/ML Professional. I build thoughtful,
+              user-focused technology with a passion for creativity, aesthetics, and clean code.
             </p>
 
             <div className="mt-6 h-8 flex items-center gap-1 text-primary font-medium">
