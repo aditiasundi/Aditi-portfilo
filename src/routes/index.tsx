@@ -208,7 +208,7 @@ function Portfolio() {
       </Section>
 
       {/* EDUCATION */}
-      <Section id="education" eyebrow="Education" title="Where I've studied" icon={<GraduationCap className="h-4 w-4" />}>
+      <Section id="education" eyebrow="Education" title="Academic background" icon={<GraduationCap className="h-4 w-4" />}>
         <div className="grid md:grid-cols-3 gap-6">
           <EduCard
             year="2025 – 2029"
@@ -236,7 +236,7 @@ function Portfolio() {
       </Section>
 
       {/* SKILLS */}
-      <Section id="skills" eyebrow="Skills" title="My little toolkit" icon={<Brain className="h-4 w-4" />}>
+      <Section id="skills" eyebrow="Skills" title="Technical toolkit" icon={<Brain className="h-4 w-4" />}>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <SkillGroup
             icon={<Code2 className="h-5 w-5" />}
@@ -272,35 +272,35 @@ function Portfolio() {
       </Section>
 
       {/* PROJECTS */}
-      <Section id="projects" eyebrow="Projects" title="Things I've built with love" icon={<Sparkles className="h-4 w-4" />}>
+      <Section id="projects" eyebrow="Projects" title="Selected work" icon={<Sparkles className="h-4 w-4" />}>
         <div className="grid md:grid-cols-2 gap-6">
           <ProjectCard
-            emoji="🌸"
+            emoji="✦"
             image={projectSkin}
             title="AI-Powered Skin Analysis Platform"
             desc="Skincare platform that analyses skin conditions from images and recommends personalised routines."
             tech={["Python", "ML", "Flask", "OpenCV"]}
           />
           <ProjectCard
-            emoji="🚨"
+            emoji="✦"
             title="AI Emergency App"
             desc="Smart emergency-response app connecting users to help quickly via AI-driven decision support."
             tech={["Python", "AI", "FastAPI"]}
           />
           <ProjectCard
-            emoji="🎮"
+            emoji="✦"
             title="Memory Pulse Game"
             desc="Fast-paced memory matching game with increasing difficulty and a clean, minimal UI."
             tech={["HTML", "CSS", "JavaScript"]}
           />
           <ProjectCard
-            emoji="⚔️"
+            emoji="✦"
             title="Anime Word Duel"
             desc="Anime-themed word battle game combining vocabulary, speed, and strategy."
             tech={["JavaScript", "HTML/CSS"]}
           />
           <ProjectCard
-            emoji="☀️"
+            emoji="✦"
             title="Solar Energy Calculator"
             desc="Calculator estimating solar panel output and savings from usage & location data."
             tech={["Python", "Data Analysis"]}
@@ -309,7 +309,7 @@ function Portfolio() {
       </Section>
 
       {/* ACHIEVEMENTS */}
-      <Section id="achievements" eyebrow="Certifications & Achievements" title="Little wins along the way" icon={<Trophy className="h-4 w-4" />}>
+      <Section id="achievements" eyebrow="Certifications & Achievements" title="Milestones" icon={<Trophy className="h-4 w-4" />}>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
           <Badge icon={<Award />} title="Deloitte AI & Cybersecurity" sub="Job Simulation Certification" />
           <Badge icon={<Award />} title="SkillUp Certification" sub="Verified Program" />
