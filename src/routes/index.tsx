@@ -432,13 +432,25 @@ function Portfolio() {
 
 /* -------- helper components -------- */
 
+const SECTION_ANIM: Record<string, string> = {
+  about: "anim-tilt-l",
+  education: "anim-flip",
+  skills: "anim-zoom",
+  projects: "anim-tilt-r",
+  achievements: "anim-swing",
+  experience: "anim-cube",
+  resume: "anim-rise",
+  contact: "anim-flip",
+};
+
 function Section({
   id, eyebrow, title, icon, children,
 }: { id: string; eyebrow: string; title: string; icon: React.ReactNode; children: React.ReactNode }) {
+  const anim = SECTION_ANIM[id] ?? "";
   return (
-    <section id={id} className="relative px-6 py-20">
+    <section id={id} className="relative px-6 py-20 stage-3d">
       <div className="mx-auto max-w-6xl">
-        <div className="reveal mb-10">
+        <div className={`reveal ${anim} mb-10`}>
           <div className="inline-flex items-center gap-2 glass-card rounded-full px-3 py-1 text-xs font-medium text-primary">
             {icon} {eyebrow}
           </div>
@@ -446,11 +458,14 @@ function Section({
             {title}
           </h2>
         </div>
-        {children}
+        <div className={`reveal ${anim}`} style={{ transitionDelay: "120ms" }}>
+          {children}
+        </div>
       </div>
     </section>
   );
 }
+
 
 function Stat({ n, label }: { n: string; label: string }) {
   return (
