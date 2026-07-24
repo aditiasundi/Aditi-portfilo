@@ -1,29 +1,148 @@
-# Welcome to your Lovable project
+# ✨ Aditi's Portfolio
 
-This project was built with [Lovable](https://lovable.dev).
+> A personal portfolio website showcasing my journey as a Computer Science & Engineering (AI & ML) student, my technical skills, projects, achievements, certifications, and interests.
 
-## Build with Lovable
+🌐 **Live Portfolio:** [Visit My Portfolio](#)
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+---
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+## 👩‍💻 About Me
 
-## Development
+Hi! I'm **Aditi C. Asundi**, a Computer Science and Engineering student specializing in **Artificial Intelligence & Machine Learning**.
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+I'm passionate about technology, AI, web development, and building creative solutions to real-world problems. I enjoy learning new technologies, experimenting with ideas, and turning concepts into practical projects.
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+Currently, I'm exploring:
 
-## Built with
+- 🤖 Artificial Intelligence & Machine Learning
+- 💡 Generative AI & Prompt Engineering
+- 🌐 Web Development
+- 📊 Data Analysis
+- 🎨 UI/UX & Creative Design
+- ☁️ Cloud Computing
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+My goal is to continuously learn, build meaningful projects, and grow as a technology professional.
+
+---
+
+## 🚀 Skills & Technologies
+
+### 💻 Programming Languages
+- Python
+- C
+- HTML
+- CSS
+- JavaScript
+
+### 🤖 AI & Machine Learning
+- Artificial Intelligence
+- Machine Learning
+- Generative AI
+- Prompt Engineering
+- Computer Vision
+
+### 🛠️ Frameworks & Tools
+- Flask
+- FastAPI
+- TensorFlow
+- MySQL
+- Jupyter Notebook
+- Pandas
+- Figma
+- Git & GitHub
+- VS Code
+
+---
+
+## 🌟 Featured Projects
+
+### 🧴 AI Skin Analysis
+An AI-powered skincare concept designed to analyze skin-related concerns and provide personalized insights and recommendations.
+
+**Technologies:** Python, AI/ML, Computer Vision
+
+---
+
+### 🌱 Smart Soil Irrigation
+A smart agriculture solution focused on optimizing irrigation using technology and intelligent decision-making to reduce water wastage.
+
+**Technologies:** Python, IoT/AI Concepts
+
+---
+
+### 🌾 Crop Disease Detection
+An AI-based project designed to identify plant diseases from crop images and assist farmers with early detection.
+
+**Technologies:** Python, Machine Learning, Computer Vision
+
+---
+
+### 🎥 VidNote AI
+An AI-powered learning assistant concept that helps students convert video content into structured notes, making learning faster and more efficient.
+
+**Technologies:** Python, Flask, AI, OpenAI API
+
+---
+
+### ☀️ Solar Energy Project
+A web-based project focused on promoting awareness of solar energy and sustainable energy solutions through an interactive interface.
+
+**Technologies:** Python, Flask, HTML, CSS, JavaScript
+
+---
+
+## 🏆 Achievements
+
+- 🥈 **2nd Place** – Tech Byte: Gameathon at Melanze 2026
+- 🎮 Developed multiple independent game projects
+- 🤖 Built and explored multiple AI/ML-based projects
+- 📚 Continuously learning emerging technologies in AI and software development
+
+---
+
+## 📜 Certifications
+
+- 🏅 AI Certification – Deloitte
+- 🏅 Cybersecurity Certification – Deloitte
+- 🏅 AI/ML & Technology Learning Certifications
+- 🏅 SkillUp Certifications
+
+---
+
+## 🎓 Education
+
+**Bachelor of Engineering (B.E.)**  
+Computer Science & Engineering – Artificial Intelligence & Machine Learning
+
+**SKSVMACET, Laxmeshwar**  
+Affiliated with Visvesvaraya Technological University (VTU)
+
+📅 Expected Graduation: **2029**
+
+📈 Current CGPA: **8.05**
+
+---
+
+## 🎯 Career Interests
+
+I am interested in exploring opportunities in:
+
+- Artificial Intelligence & Machine Learning
+- Data Analysis
+- Software Development
+- Cloud Computing
+- AI-Powered Applications
+- UI/UX Design
+- Generative AI
+## 🌱 Currently Learning
+
+```text
+AI & Machine Learning
+        ↓
+Generative AI
+        ↓
+Data Analysis
+        ↓
+Cloud Computing
+        ↓
+Full-Stack Development
