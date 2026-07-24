@@ -63,20 +63,6 @@ An AI-powered skincare concept designed to analyze skin-related concerns and pro
 
 ---
 
-### 🌱 Smart Soil Irrigation
-A smart agriculture solution focused on optimizing irrigation using technology and intelligent decision-making to reduce water wastage.
-
-**Technologies:** Python, IoT/AI Concepts
-
----
-
-### 🌾 Crop Disease Detection
-An AI-based project designed to identify plant diseases from crop images and assist farmers with early detection.
-
-**Technologies:** Python, Machine Learning, Computer Vision
-
----
-
 ### 🎥 VidNote AI
 An AI-powered learning assistant concept that helps students convert video content into structured notes, making learning faster and more efficient.
 
