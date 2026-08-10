@@ -78,23 +78,52 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Aditi C. Asundi — AI/ML Student & Aspiring Data Professional" },
-      { name: "description", content: "Portfolio of Aditi C. Asundi, a B.E. CSE (AI & ML) student passionate about Artificial Intelligence, Machine Learning, and thoughtful, user-focused technology." },
+      {
+        name: "description",
+        content:
+          "Portfolio of Aditi C. Asundi, a B.E. CSE (AI & ML) student passionate about Artificial Intelligence, Machine Learning, and thoughtful, user-focused technology.",
+      },
       { name: "author", content: "Aditi C. Asundi" },
-      { property: "og:title", content: "Aditi C. Asundi — AI/ML Student & Aspiring Data Professional" },
-      { property: "og:description", content: "Portfolio of Aditi C. Asundi, a B.E. CSE (AI & ML) student passionate about Artificial Intelligence, Machine Learning, and thoughtful, user-focused technology." },
+      {
+        property: "og:title",
+        content: "Aditi C. Asundi — AI/ML Student & Aspiring Data Professional",
+      },
+      {
+        property: "og:description",
+        content:
+          "Portfolio of Aditi C. Asundi, a B.E. CSE (AI & ML) student passionate about Artificial Intelligence, Machine Learning, and thoughtful, user-focused technology.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Aditi C. Asundi — AI/ML Student & Aspiring Data Professional" },
-      { name: "twitter:description", content: "Portfolio of Aditi C. Asundi, a B.E. CSE (AI & ML) student passionate about Artificial Intelligence, Machine Learning, and thoughtful, user-focused technology." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/aabb0521-4eaf-49dd-ab41-fc342639aee7/id-preview-6297ae28--0aed1bb5-0372-47e1-91d6-efa346675d11.lovable.app-1784785260163.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/aabb0521-4eaf-49dd-ab41-fc342639aee7/id-preview-6297ae28--0aed1bb5-0372-47e1-91d6-efa346675d11.lovable.app-1784785260163.png" },
+      {
+        name: "twitter:title",
+        content: "Aditi C. Asundi — AI/ML Student & Aspiring Data Professional",
+      },
+      {
+        name: "twitter:description",
+        content:
+          "Portfolio of Aditi C. Asundi, a B.E. CSE (AI & ML) student passionate about Artificial Intelligence, Machine Learning, and thoughtful, user-focused technology.",
+      },
+      {
+        property: "og:image",
+        content:
+          "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/aabb0521-4eaf-49dd-ab41-fc342639aee7/id-preview-6297ae28--0aed1bb5-0372-47e1-91d6-efa346675d11.lovable.app-1784785260163.png",
+      },
+      {
+        name: "twitter:image",
+        content:
+          "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/aabb0521-4eaf-49dd-ab41-fc342639aee7/id-preview-6297ae28--0aed1bb5-0372-47e1-91d6-efa346675d11.lovable.app-1784785260163.png",
+      },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
-      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap",
+      },
     ],
   }),
   shellComponent: RootShell,

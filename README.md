@@ -28,6 +28,7 @@ My goal is to continuously learn, build meaningful projects, and grow as a techn
 ## 🚀 Skills & Technologies
 
 ### 💻 Programming Languages
+
 - Python
 - C
 - HTML
@@ -35,6 +36,7 @@ My goal is to continuously learn, build meaningful projects, and grow as a techn
 - JavaScript
 
 ### 🤖 AI & Machine Learning
+
 - Artificial Intelligence
 - Machine Learning
 - Generative AI
@@ -42,6 +44,7 @@ My goal is to continuously learn, build meaningful projects, and grow as a techn
 - Computer Vision
 
 ### 🛠️ Frameworks & Tools
+
 - Flask
 - FastAPI
 - TensorFlow
@@ -57,6 +60,7 @@ My goal is to continuously learn, build meaningful projects, and grow as a techn
 ## 🌟 Featured Projects
 
 ### 🧴 AI Skin Analysis
+
 An AI-powered skincare concept designed to analyze skin-related concerns and provide personalized insights and recommendations.
 
 **Technologies:** Python, AI/ML, Computer Vision
@@ -64,6 +68,7 @@ An AI-powered skincare concept designed to analyze skin-related concerns and pro
 ---
 
 ### 🎥 VidNote AI
+
 An AI-powered learning assistant concept that helps students convert video content into structured notes, making learning faster and more efficient.
 
 **Technologies:** Python, Flask, AI, OpenAI API
@@ -71,6 +76,7 @@ An AI-powered learning assistant concept that helps students convert video conte
 ---
 
 ### ☀️ Solar Energy Project
+
 A web-based project focused on promoting awareness of solar energy and sustainable energy solutions through an interactive interface.
 
 **Technologies:** Python, Flask, HTML, CSS, JavaScript
@@ -120,6 +126,7 @@ I am interested in exploring opportunities in:
 - AI-Powered Applications
 - UI/UX Design
 - Generative AI
+
 ## 🌱 Currently Learning
 
 ```text
@@ -132,3 +139,4 @@ Data Analysis
 Cloud Computing
         ↓
 Full-Stack Development
+```
