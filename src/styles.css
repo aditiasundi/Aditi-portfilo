@@ -237,12 +237,13 @@
   transition:
     opacity 0.9s ease,
     transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
-  transform-style: preserve-3d;
   will-change: transform, opacity;
+  backface-visibility: hidden;
 }
 .reveal.visible {
   opacity: 1;
   transform: translateY(0);
+  will-change: auto;
 }
 
 /* 3D entrance variants — combine with .reveal */
@@ -251,25 +252,25 @@
   transform-origin: top center;
 }
 .reveal.anim-tilt-l {
-  transform: perspective(1200px) rotateY(-32deg) translateX(-60px);
+  transform: perspective(1200px) rotateY(-24deg) translateX(-30px);
   transform-origin: left center;
 }
 .reveal.anim-tilt-r {
-  transform: perspective(1200px) rotateY(32deg) translateX(60px);
+  transform: perspective(1200px) rotateY(24deg) translateX(30px);
   transform-origin: right center;
 }
 .reveal.anim-zoom {
-  transform: perspective(1200px) translateZ(-260px) scale(0.82);
+  transform: perspective(1200px) translateZ(-200px) scale(0.86);
 }
 .reveal.anim-swing {
-  transform: perspective(1200px) rotateX(22deg) rotateY(-18deg) translateY(40px);
+  transform: perspective(1200px) rotateX(18deg) rotateY(-14deg) translateY(40px);
 }
 .reveal.anim-rise {
-  transform: perspective(1200px) rotateX(38deg) translateY(70px);
+  transform: perspective(1200px) rotateX(32deg) translateY(60px);
   transform-origin: bottom center;
 }
 .reveal.anim-cube {
-  transform: perspective(1200px) rotateY(90deg) translateX(80px);
+  transform: perspective(1200px) rotateY(70deg) translateX(40px);
   transform-origin: left center;
 }
 .reveal.anim-flip.visible,
@@ -282,20 +283,57 @@
   transform: perspective(1200px) rotateX(0) rotateY(0) translate3d(0, 0, 0) scale(1);
 }
 
-/* 3D hover tilt for cards */
+/* Nested reveals inside an already-animating section: fade only,
+   so children don't compound the parent's 3D transform (flicker/overlap). */
+.reveal .reveal,
+.reveal .reveal.anim-flip,
+.reveal .reveal.anim-tilt-l,
+.reveal .reveal.anim-tilt-r,
+.reveal .reveal.anim-zoom,
+.reveal .reveal.anim-swing,
+.reveal .reveal.anim-rise,
+.reveal .reveal.anim-cube {
+  transform: translateY(14px);
+}
+.reveal .reveal.visible {
+  transform: none;
+}
+
+/* 3D hover tilt for cards — only after the entrance finished */
 .tilt-card {
   transition:
     transform 0.55s cubic-bezier(0.22, 1, 0.36, 1),
     box-shadow 0.55s;
-  transform-style: preserve-3d;
 }
-.tilt-card:hover {
+.tilt-card.visible:hover,
+.tilt-card:not(.reveal):hover {
   transform: perspective(1000px) rotateX(5deg) rotateY(-7deg) translateY(-8px) scale(1.02);
   box-shadow: var(--shadow-glow);
 }
 
-/* Section stage for 3D children */
+/* Section stage for 3D children — clip sideways travel so the
+   page never gains a horizontal scrollbar mid-animation. */
 .stage-3d {
   perspective: 1400px;
   perspective-origin: 50% 20%;
+  overflow-x: clip;
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .reveal.anim-flip,
+  .reveal.anim-tilt-l,
+  .reveal.anim-tilt-r,
+  .reveal.anim-zoom,
+  .reveal.anim-swing,
+  .reveal.anim-rise,
+  .reveal.anim-cube {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .tilt-card:hover {
+    transform: none;
+  }
+}
+
