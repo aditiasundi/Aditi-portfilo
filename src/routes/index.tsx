@@ -105,15 +105,30 @@ function useTheme() {
 
 function useReveal() {
   useEffect(() => {
-    const els = document.querySelectorAll(".reveal");
+    const els = Array.from(document.querySelectorAll<HTMLElement>(".reveal"));
+    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduced) {
+      els.forEach((el) => el.classList.add("visible"));
+      return;
+    }
     const io = new IntersectionObserver(
-      (entries) => entries.forEach((e) => e.isIntersecting && e.target.classList.add("visible")),
-      { threshold: 0.12 },
+      (entries) =>
+        entries.forEach((e) => {
+          if (!e.isIntersecting) return;
+          e.target.classList.add("visible");
+          io.unobserve(e.target); // one-shot: prevents re-trigger flicker on scroll-up
+        }),
+      { threshold: 0.05, rootMargin: "0px 0px -40px 0px" },
     );
-    els.forEach((el) => io.observe(el));
+    // Anything already in view on mount reveals immediately (no first-paint flash).
+    els.forEach((el) => {
+      if (el.getBoundingClientRect().top < window.innerHeight) el.classList.add("visible");
+      else io.observe(el);
+    });
     return () => io.disconnect();
   }, []);
 }
+
 
 const NAV = [
   { href: "#about", label: "About" },
