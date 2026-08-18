@@ -297,7 +297,7 @@ function Portfolio() {
             </p>
           </div>
           <div className="md:col-span-2 space-y-4 reveal">
-            <Stat n="8.05" label="Current CGPA" />
+            <Stat n="8.53" label="Current CGPA" />
             <Stat n="5+" label="Projects Built" />
             <Stat n="2029" label="Graduating" />
           </div>
@@ -312,7 +312,7 @@ function Portfolio() {
                 year: "2025 – 2029",
                 title: "B.E. — CSE (AI & ML)",
                 place: "SKSVMACET, Laxmeshwar",
-                detail: "CGPA\u00a0 8.05\u00a0· Ongoing",
+                detail: "CGPA\u00a0 8.53\u00a0· Ongoing",
               },
               {
                 year: "PUC",
@@ -344,7 +344,7 @@ function Portfolio() {
             title="B.E. — Computer Science & Engineering"
             spec="Artificial Intelligence & Machine Learning"
             place="SKSVMACET, Laxmeshwar, Karnataka"
-            score="CGPA · 8.05"
+            score="CGPA · 8.53"
             highlight
           />
           <EduCard
