@@ -111,7 +111,7 @@ Affiliated with Visvesvaraya Technological University (VTU)
 
 📅 Expected Graduation: **2029**
 
-📈 Current CGPA: **8.05**
+📈 Current CGPA: **8.53**
 
 ---
 

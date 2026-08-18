@@ -297,7 +297,7 @@ function Portfolio() {
             </p>
           </div>
           <div className="md:col-span-2 space-y-4 reveal">
-            <Stat n="8.05" label="Current CGPA" />
+            <Stat n="8.53" label="Current CGPA" />
             <Stat n="5+" label="Projects Built" />
             <Stat n="2029" label="Graduating" />
           </div>
@@ -312,7 +312,7 @@ function Portfolio() {
                 year: "2025 – 2029",
                 title: "B.E. — CSE (AI & ML)",
                 place: "SKSVMACET, Laxmeshwar",
-                detail: "CGPA\u00a0 8.05\u00a0· Ongoing",
+                detail: "CGPA\u00a0 8.53\u00a0· Ongoing",
               },
               {
                 year: "PUC",
@@ -344,7 +344,7 @@ function Portfolio() {
             title="B.E. — Computer Science & Engineering"
             spec="Artificial Intelligence & Machine Learning"
             place="SKSVMACET, Laxmeshwar, Karnataka"
-            score="CGPA · 8.05"
+            score="CGPA · 8.53"
             highlight
           />
           <EduCard
@@ -538,7 +538,7 @@ function Portfolio() {
               <div className="mt-3">
                 <div className="text-primary font-semibold text-[11px]">CAREER OBJECTIVE</div>
                 <p className="text-foreground/70 text-[10px] mt-1">
-                  Motivated CSE (AI & ML) student with strong academic record (CGPA 8.05)…
+                  Motivated CSE (AI & ML) student with strong academic record (CGPA 8.53)…
                 </p>
               </div>
               <div className="mt-3">
@@ -715,7 +715,7 @@ const BOT_REPLIES: { keywords: string[]; text: string }[] = [
   },
   {
     keywords: ["cgpa", "education", "score", "college", "marks", "gpa", "school"],
-    text: "Aditi is a stellar student! 🎓\n• **B.E. CSE (AI & ML)** at SKSVMACET, Laxmeshwar with an ongoing CGPA of **8.05**.\n• **PUC (Science):** Vidya Chetan PU College (84.6%).\n• **Class X (CBSE):** Kendriya Vidyalaya (75%).",
+    text: "Aditi is a stellar student! 🎓\n• **B.E. CSE (AI & ML)** at SKSVMACET, Laxmeshwar with an ongoing CGPA of **8.53**.\n• **PUC (Science):** Vidya Chetan PU College (84.6%).\n• **Class X (CBSE):** Kendriya Vidyalaya (75%).",
   },
   {
     keywords: ["contact", "email", "linkedin", "github", "social"],
