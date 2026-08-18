@@ -538,7 +538,7 @@ function Portfolio() {
               <div className="mt-3">
                 <div className="text-primary font-semibold text-[11px]">CAREER OBJECTIVE</div>
                 <p className="text-foreground/70 text-[10px] mt-1">
-                  Motivated CSE (AI & ML) student with strong academic record (CGPA 8.05)…
+                  Motivated CSE (AI & ML) student with strong academic record (CGPA 8.53)…
                 </p>
               </div>
               <div className="mt-3">
@@ -715,7 +715,7 @@ const BOT_REPLIES: { keywords: string[]; text: string }[] = [
   },
   {
     keywords: ["cgpa", "education", "score", "college", "marks", "gpa", "school"],
-    text: "Aditi is a stellar student! 🎓\n• **B.E. CSE (AI & ML)** at SKSVMACET, Laxmeshwar with an ongoing CGPA of **8.05**.\n• **PUC (Science):** Vidya Chetan PU College (84.6%).\n• **Class X (CBSE):** Kendriya Vidyalaya (75%).",
+    text: "Aditi is a stellar student! 🎓\n• **B.E. CSE (AI & ML)** at SKSVMACET, Laxmeshwar with an ongoing CGPA of **8.53**.\n• **PUC (Science):** Vidya Chetan PU College (84.6%).\n• **Class X (CBSE):** Kendriya Vidyalaya (75%).",
   },
   {
     keywords: ["contact", "email", "linkedin", "github", "social"],
