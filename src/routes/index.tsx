@@ -465,7 +465,7 @@ function Portfolio() {
             title="Deloitte AI & Cybersecurity"
             sub="Job Simulation Certification"
           />
-          <Badge icon={<Award />} title="SkillUp Certification" sub="Verified Program" />
+          <Badge icon={<Award />} title="NPTEL Certification" sub="Data structure and algorithm in java (elite +sliver)" />
           <Badge
             icon={<Trophy />}
             title="2nd Place — Tech Byte"
@@ -611,7 +611,7 @@ function Portfolio() {
               value="aditiasundi"
               href="https://github.com/aditiasundi"
             />
-            <ContactItem icon={<Instagram />} label="Instagram" value="@aditi" href="#" />
+            <ContactItem icon={<Instagram />} label="Instagram" value="@aditiasundi" href="#" />
           </div>
 
           <form
